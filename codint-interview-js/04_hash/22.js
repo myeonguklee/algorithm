@@ -1,5 +1,4 @@
 // 오픈채팅방
-
 // https://school.programmers.co.kr/learn/courses/30/lessons/42888
 
 function solution(record) {
@@ -17,7 +16,6 @@ function solution(record) {
     }else if (arr[0] === "Change"){
       nickname[arr[1]] = arr[2];
     }
-
   }
 
   const answer = result.map((res) => {

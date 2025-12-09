@@ -23,8 +23,8 @@ function solution(enroll, referral, seller, amount) {
 
       sm = per
       curr = next;
-
-      // 여기 분기 필요 없어
+      
+      // 여기 분기 필요 없어(원래 풀이)
       // if(per < 1) {
       //   break;
       // } else {
@@ -33,6 +33,7 @@ function solution(enroll, referral, seller, amount) {
       //   sm = per;
       //   curr = next;
       // }
+      if(curr === '-' || sm === 0) break;
     }
   }
   return Object.values(answer);

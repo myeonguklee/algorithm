@@ -15,6 +15,3 @@ function solution(array, commands) {
 }
 
 console.log(solution(array, commands));
-
-// 모노헤르츠
-// 누누타코야끼

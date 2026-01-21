@@ -4,8 +4,6 @@
 function solution(topping) {
   let answer = 0;
 
-  const n = topping.length;
-
   const st = new Set();
   const mp = new Map();
 

@@ -1,3 +1,6 @@
+// https://school.programmers.co.kr/learn/courses/30/lessons/42842
+// 카펫
+
 function solution(brown, yellow) {
   const n = brown + yellow
 
